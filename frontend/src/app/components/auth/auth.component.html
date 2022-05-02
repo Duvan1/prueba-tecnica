@@ -1,0 +1,22 @@
+<div class="h-100 d-flex justify-content-center align-items-center">
+  <div class="w-75">
+    <div class="w-100 text-center">
+      <img src="/assets/imgs/Logo.svg" class="mb-4" alt="Logo" />
+    </div>
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link link p-3" (click)="tabSignIn = true" [ngClass]="{'active': tabSignIn}">INGRESAR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link p-3" (click)="tabSignIn = false" [ngClass]="{'active': !tabSignIn}">REGISTRO</a>
+      </li>
+    </ul>
+    <div class="card py-2">
+      <div class="card-body">
+          <app-signin *ngIf="tabSignIn"></app-signin>
+          <app-signup *ngIf="!tabSignIn"></app-signup>
+      </div>
+    </div>
+  </div>
+</div>

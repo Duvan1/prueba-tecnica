@@ -1,0 +1,28 @@
+.card {
+  background: #3a3061;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  border-radius: 0px 0px 6px 6px;
+  color: white;
+}
+.nav-link {
+  background: #3a3061;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+  cursor: pointer;
+  color: white !important;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  background: #3a3061;
+  opacity: 0.5;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  background: #3a3061;
+  mix-blend-mode: normal;
+  color: white !important;
+  opacity: 0.9;
+}

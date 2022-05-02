@@ -1,0 +1,10 @@
+html {
+  height: 100% !important;
+}
+body {
+  min-height: 100% !important;
+}
+
+.blue-bg {
+  background-color: #393fd0 !important;
+}
